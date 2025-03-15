@@ -1,0 +1,61 @@
+.pri {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.arti {
+  padding: 30px 80px 80px 80px;
+}
+
+.ids img {
+  width: 500px;
+}
+
+.hh {
+  font-size: 30px;
+  color: rgb(3, 3, 56);
+}
+
+.oz {
+  padding-left: 100px;
+}
+
+.ozz {
+  font-size: 20px;
+}
+
+.ppp {
+  font-size: 20px;
+}
+
+.bbb {
+  display:none; 
+  position:fixed; 
+  top:0; 
+  left:0; 
+  width:100%; 
+  height:100%; 
+  background:rgba(0, 0, 0, 0.5);   
+  z-index:1000;
+}
+
+.ccc {
+  position:absolute;
+  top:50%; 
+  left:50%; 
+  transform:translate(-50%, -50%); 
+  background:white; 
+  padding:20px;
+  width: 700px;
+  height: 80%;
+  border-radius: 100px 0px 0px 100px;
+  overflow-y: auto;
+}
+
+.bbtn button {
+  width: 120px;
+  height: 32px;
+  border-radius: 15px;
+  background-color: rgb(3, 3, 56);
+  color: #fff;
+}

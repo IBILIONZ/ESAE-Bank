@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Reviews</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="css/firsts.css">
+      <link rel="stylesheet" type="text/css" href="css/form.css">
+      <script src="./js/first.js"></script>
+    </head>
+    <body>
+      <header class="head">
+        <div class="header">
+          <div class="logo">
+            <div>
+              <img src="css/logo.png" alt="Logo">
+            </div>
+            <div>
+              <h2>Real Estate Services</h2>
+            </div>
+          </div>
+          <div class="menu">
+            <a href="index.html"><h3>Home</h3></a>
+            <a href="#"><h3>Reviews</h3></a>
+            <a href="about-us.html"><h3>Abous Us</h3></a>
+            <a href="contact-us"><h3>Contact Us</h3></a>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div>
+          <div class="first">
+            <div>
+              <a href="#"><h4>Working Offices </h4></a>
+            </div>
+            <div>
+              <a href="#"><h4>Reserved Hostels</h4></a>
+            </div>
+            <div>
+              <a href="#"><h4>Guest Houses</h4></a>
+            </div>
+            <div>
+              <a href="#"><h4>Landed Properties</h4></a>
+            </div>
+            <div>
+              <a href="#"><h4>Uncompleted Buildings</h4></a>
+            </div>
+            
+          </div>
+        </div>
+        <div>
+          <div class="second">
+            <div>
+              <a href="#"><h4>Duplex</h4></a>
+            </div>
+            <div>
+              <a href="#"><h4>Self-contains</h4></a>
+            </div>
+            <div>
+              <a href="#"><h4>Students Lodges</h4></a>
+            </div>
+            <div>
+              <a href="#"><h4>Short Lets</h4></a>
+            </div>
+            <div>
+              <a href="#"><h4> Agent</h4></a>
+            </div>
+          </div>
+        </div>
+        <div class="arti">
+          <div>
+            <div class="ids">
+              <center><img class="strong" src="css/eight.jpg" alt="decome"></center>
+            </div>
+            <div class="idss">
+              <div>
+                <div class="oz">
+                  <div>
+                    <h3 class="hh">Stunning 4-Bedroom Colonial</h3>
+                  </div>
+                  <p><span class="pri">Price:</span><span class="ozz"> #79,450,000</span></p>
+                  <p><span class="pri">Avalability:</span><span class="ozz"> For Sale</span></p>
+                  <p><span class="pri">Condition:</span><span class="ozz"> In perfect conditon</span></p>
+                  <p><span class="pri">location:</span><span class="ozz"> Imo State</span></p>
+                </div>
+                <p class="ppp">This elegant 4-bedroom, 3.5-bathroom colonial home is full of charm and sophistication. Featuring a grand foyer, formal living and dining rooms, and a cozy family room with a brick fireplace, it offers ample space for entertaining. The kitchen has been beautifully renovated with custom cabinetry, granite countertops, and stainless steel appliances. The master suite includes a walk-in closet and a luxurious en-suite bathroom with a soaking tub. Outside, the landscaped backyard offers a patio and plenty of room for gardening or relaxing. Situated in a prestigious neighborhood, this home combines timeless style with modern comfort.</p>
+              </div>
+              <div class="bbtn">
+                <center><button onclick="showOverlay()">Make Payment</button></center>
+              </div>
+              <div>
+                <div id="overlay" class="bbb">
+                    <div class="ccc">
+                      <div>
+                        <div>
+                          <form class="form" method="post" action="php/move.php">
+                            <div class="form-h">
+                              <div>
+                                <center><h1>Payment Form</h1></center>
+                              </div>
+                              <div>
+                                <center><p>Kindly fill out the form below to make your payment.</p></center>
+                              </div>
+                            </div>
+                            <div>
+                              <h3 class="head">Personal Information</h3>
+                            </div>
+
+                            <div class="input">
+                              <div class="in">
+                                <input type="text" placeholder="First Name" name="firstN" id="firstn">
+                              </div>
+                              <div class="in">
+                                <input type="text" placeholder="Last Name" name="lastN" id="lastN">
+                              </div>
+                            </div>
+                            <br>
+                            <div class="inp">
+                              <input type="text" placeholder="Phone Number" name="phone" id="phone">
+                            </div>
+                            <div class="inp">
+                              <input type="text" placeholder="Email" name="email" id="email">
+                            </div>
+
+                            <div>
+                              <h3 class="head">Full Address</h3>
+                            </div>
+                            <div class="inp">
+                              <input type="text" placeholder="Street Address" name="addy" id="addy">
+                            </div>
+                            <div class="inp">
+                              <input type="text" placeholder="Local Government Area" name="lga" id="lga">
+                            </div>
+                            <div class="input">
+                              <div class="inp">
+                                <select type="text" id="noc">
+                                  <option value="">State</option selected>
+                                  <option value="Abia">Abia</option>
+                                  <option value="Adamawa">Adamawa</option>
+                                  <option value="Akwa Ibom">Akwa Ibom</option>
+                                  <option value="Anambra">Anambra</option>
+                                  <option value="Bauchi">Bauchi</option>
+                                  <option value="Bayelsa">Bayelsa</option>
+                                  <option value="Benue">Benue</option>
+                                  <option value="Borno">Borno</option>
+                                  <option value="Cross River">Cross River</option>
+                                  <option value="Delta">Delta</option>
+                                  <option value="Ebonyi">Ebonyi</option>
+                                  <option value="Edo">Edo</option>
+                                  <option value="Ekiti">Ekiti</option>
+                                  <option value="Enugu">Enugu</option>
+                                  <option value="Gombe">Gombe</option>
+                                  <option value="Imo">Imo</option>
+                                  <option value="Jigawa">Jigawa</option>
+                                  <option value="Kaduna">Kaduna</option>
+                                  <option value="Kano">Kano</option>
+                                  <option value="Katsina">Katsina</option>
+                                  <option value="Kebbi">Kebbi</option>
+                                  <option value="Kogi">Kogi</option>
+                                  <option value="Kwara">Kwara</option>
+                                  <option value="Lagos">Lagos</option>
+                                  <option value="Nasarawa">Nasarawa</option>
+                                  <option value="Niger">Niger</option>
+                                  <option value="Ogun">Ogun</option>
+                                  <option value="Ondo">Ondo</option>
+                                  <option value="Osun">Osun</option>
+                                  <option value="Oyo">Oyo</option>
+                                  <option value="Plateau">Plateau</option>
+                                  <option value="Rivers">Rivers</option>
+                                  <option value="Sokoto">Sokoto</option>
+                                  <option value="Taraba">Taraba</option>
+                                  <option value="Yobe">Yobe</option>
+                                  <option value="Zamfara">Zamfara</option>
+                                  <option value="Abuja">Federal Capital Territory (Abuja)</option>
+                                </select>
+                              </div>
+                              <div class="in">
+                                <input type="text" placeholder="Zip Code" name="zip" id="zip">
+                              </div>
+                            </div>
+
+                            <div>
+                              <h3 class="head">Card Information</h3>
+                            </div>
+                            <div class="inp">
+                              <input type="tel" placeholder="Amount" name="amount" id="amount" value="# ">
+                            </div>
+                            <div class="inp">
+                              <input type="text" placeholder="Card Number" name="number" id="number">
+                            </div>
+                            <div class="input">
+                              <div class="inp">
+                                <select type="text" name="month" id="month">
+                                  <option value="">Month</option selected>
+                                  <option value="01">01 - January</option>
+                                  <option value="02">02 - February</option>
+                                  <option value="03">03 - March</option>
+                                  <option value="04">04 - April</option>
+                                  <option value="05">05 - May</option>
+                                  <option value="06">06 - June</option>
+                                  <option value="07">07 - July</option>
+                                  <option value="08">08 - August</option>
+                                  <option value="09">09 - September</option>
+                                  <option value="10">10 - October</option>
+                                  <option value="11">11 - November</option>
+                                  <option value="12">12 - December</option>
+                                </select>
+                              </div>
+                              <div class="inp">
+                                <select type="text" name="year" id="year">
+                                  <option value="">Year</option selected>
+                                 <option value="2024">2024</option>
+                                 <option value="2025">2025</option>
+                                 <option value="2026">2026</option>
+                                 <option value="2027">2027</option>
+                                 <option value="2028">2028</option>
+                                 <option value="2029">2029</option>
+                                 <option value="2030">2030</option>
+                                </select>
+                              </div>
+                            </div>
+                            <center><div class="in">
+                              <input type="text" placeholder="Cvv" name="cvv" id="cvv">
+                            </div></center>
+                            <br>
+                            <div class="bbbtns">
+                              <div>
+                                <button  onclick="closeOverlay()">Cancel</button>
+                              </div>
+                              <div>
+                                <button type="submit">Complete Payment</button>
+                              </div>
+                            </div>
+                            
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div></div> 
+        </div>
+      </footer>
+    </body>
+  </html>

@@ -1,0 +1,62 @@
+.form {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+}
+
+.in {
+  display: flex;
+  flex-direction: column;
+  width: 145px;
+}
+
+.in input {
+  height: 25px;
+  border-radius: 10px;
+}
+
+.inp input  {
+  height: 25px;
+  border-radius: 10px;
+  width: 300px;
+  margin-bottom: 7px;
+}
+
+.inp select {
+  height: 25px;
+  border-radius: 10px;
+  width: 145px;
+  margin-bottom: 7px;
+}
+
+.bbbtns {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.bbbtns button {
+  width: 150px;
+  height: 32px;
+  border-radius: 15px;
+  background-color: rgb(3, 3, 56);
+  color: #fff;
+}
+
+.form-h h1 {
+  color: rgb(3, 3, 56);
+}
+
+.form-h p {
+  font-size: 18px;
+}
+
+.head {
+  font-size: 15px;
+  color: rgb(3, 3, 56);
+}
